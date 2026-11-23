@@ -1,0 +1,27 @@
+/*
+Theme Name: Fieldnotes
+Description: A small journal theme, used as the Spectivis Cloud WordPress sample.
+Version: 1.0
+Requires PHP: 7.4
+Text Domain: fieldnotes
+*/
+:root{--ink:#1c1b19;--paper:#f6f3ec;--rule:#d9d3c5;--accent:#2f5d50;--muted:#6f6a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 Georgia,"Times New Roman",serif}
+a{color:var(--accent)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+.site-head{border-bottom:1px solid var(--rule);padding:28px 0}
+.site-head .wrap{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap}
+.site-title{font-size:28px;font-weight:700;letter-spacing:-.01em;text-decoration:none;color:var(--ink)}
+.site-desc{color:var(--muted);font-size:16px;margin:0}
+nav.main ul{list-style:none;display:flex;gap:22px;margin:0;padding:0;font:15px/1 system-ui,sans-serif}
+nav.main a{text-decoration:none;color:var(--ink)}
+main{padding:48px 0 72px}
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:40px 48px}
+article h2{font-size:26px;line-height:1.2;margin:0 0 8px;text-wrap:balance}
+article h2 a{color:var(--ink);text-decoration:none}
+.meta{font:13px/1 system-ui,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}
+.single{max-width:720px}
+.single h1{font-size:44px;line-height:1.1;margin:0 0 12px;text-wrap:balance}
+.entry img{max-width:100%;height:auto}
+.site-foot{border-top:1px solid var(--rule);padding:24px 0;color:var(--muted);font:14px/1.5 system-ui,sans-serif}
